@@ -1,12 +1,12 @@
 <!--
 Requirements
-[  ] Google Font OR Uploaded Font
-[  ] font-size OR font-style 
-[  ] Five CSS Rules
-[  ] Three Images
+[ yes ] Google Font OR Uploaded Font
+[ yes ] font-size OR font-style 
+[  yes] Five CSS Rules
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Static Background Image
+[ yes ] Feature 1 - Include a Static Background Image
 [ no ] Feature 2 - Use a unique border-radius
 [ no ] Feature 3 - Use width and margin CSS Properties
 [ no ] Feature 4 - Include at least one more additional HTML page
@@ -20,11 +20,151 @@ Select ONE Additional Feature to Add
   <meta charset="utf-8">
   <style>
 
+    @font-face {
+      font-family: cherry;
+        src: url(https://cdn.glitch.global/06b2ce43-e51c-47a5-a229-75fb44d47bca/CHERL___.TTF?v=1731080130901)
+    }
+    
+    @font-face {
+      font-family: pop;
+      src: url(https://cdn.glitch.global/06b2ce43-e51c-47a5-a229-75fb44d47bca/Popcat.otf?v=1731079656407)
+    }
+      
+    @font-face {
+      font-family: star;
+      src: url(https://cdn.glitch.global/06b2ce43-e51c-47a5-a229-75fb44d47bca/Starborn.ttf?v=1731079445881)
+    }
+    
+    @font-face {
+      font-family: heart;
+      src: url(https://cdn.glitch.global/06b2ce43-e51c-47a5-a229-75fb44d47bca/RoselineDreams_PERSONAL_USE_ONLY.otf?v=1730998008104)
+    }
+    @font-face {
+      font-family: leaves;
+      src: url(https://cdn.glitch.global/06b2ce43-e51c-47a5-a229-75fb44d47bca/LSLeaves.ttf?v=1730997905887)
+    }
+    @font-face {
+      font-family: snowy;
+        src: url(https://cdn.glitch.global/06b2ce43-e51c-47a5-a229-75fb44d47bca/Winter%20Day.otf?v=1730996886918)
+    }
+    
+    @font-face {
+      font-family: sunny;
+      src: url(https://cdn.glitch.global/06b2ce43-e51c-47a5-a229-75fb44d47bca/Summer%20PERSONAL%20USE%20ONLY!.ttf?v=1730997420334)
+    }
+    .winterrr {
+      font-family: snowy;
+      color: white;
+      
+    }
+    .summerrr {
+      font-family: sunny;
+      color: white;
+    }
+    .autumnal {
+      font-family: leaves; 
+      color: white;
+    }
+    .title {
+      font-family: heart;
+      font-size: 3em
+      color: white;
+    }
+    .firstlist{
+      font-family: star; 
+      color: white;
+    }
+    .secondlist{
+      font-family: pop;
+      color: white;
+    }
+    .thirdlist{
+      font-family: cherry;
+      color: white;
+    }
+    
+    img {
+      border-radius: 30px
+    }
+    img {
+      border: 5px solid #D2B48C
+    }
+    body {
+      background-image: url("https://img.freepik.com/premium-photo/empty-wood-table-front-blurred-coffee-shop-cafe-workplace-background_1936-539.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    h1 {
+      background-color: tan;
+    }
+    
   </style>
 </head>
-<body>
-
- 
+  <body>
+  
+  <h1 class= "title">
+  <center>Coffee Club</center>
+  </h1>
+  <h2 class= "winterrr">
+    Winter Menu
+  </h2>
+  
+  <ul class= "firstlist">
+    <li>Peppermint Mocha</li>
+    <li>Gingerbread Latte</li>
+    <li>Hazelnut Macchiato</li>
+  </ul>
+    <img
+         src= "https://flouringkitchen.com/wp-content/uploads/2023/10/gingerbread_latte_thumbnail.jpg"
+         width= "350"
+         alt= "gingerbread latte"
+         >
+    <img
+         src= "https://www.mealplanningmagic.com/wp-content/uploads/2021/11/Peppermint-Mocha-Creamer-square.jpg"
+         width= "350"
+         alt= "peppermint mocha"
+         >
+    <h2 class= "summerrr">
+      Summer Menu
+    </h2>
+ <ul class= "secondlist">
+   <li>Iced Strawberry Latte</li>
+   <li>Vanilla Sweet Cream Cold Brew</li>
+   <li>Whipped Ice Coffee</li>
+    </ul>
+    <img
+         src= "https://theveggieyaya.com/wp-content/uploads/2024/06/iced-strawberry-latte-square-image.jpg"
+         width= "350"
+         alt= "strawberry latte"
+         >
+    <img
+         src= "https://fitfoodiefinds.com/wp-content/uploads/2021/05/Sweet-Cream-Cold-Brew-16sq.jpg"
+         width= "350"
+         alt= "cold brew"
+         >
+    <h2 class= "autumnal">
+      Fall Menu
+    </h2>
+    <ul class= "thirdlist">
+      <li>Vanilla Maple Latte</li>
+      <li>Pumpkin Spice Latte</li>
+      <li>Apple Crisp Macchiato</li>
+    </ul>
+    <img
+         src= "https://avirtualvegan.com/wp-content/uploads/2022/09/Apple-Crisp-Macchiato-A-Virtual-Vegan-7.jpg"
+         width= "350"
+         alt= "apple"
+         >
+    <img
+         src= "https://coffeecopycat.com/wp-content/uploads/2024/07/HotPumpkinSpiceLatte-1200x1200-1.jpg"
+         width= "350"
+         alt= "pumpkin"
+         >
+    
+  
+  
 
 </body>
 </html>
+  
